@@ -1,11 +1,10 @@
 ---
 date: '2017-04-01'
-title: 'Studio Developer'
-company: 'Scout'
-location: 'Northeastern University'
-range: 'January - June 2017'
-url: 'https://web.northeastern.edu/scout/'
+title: 'High school Internship'
+company: 'Educall'
+location: 'Rabat, MA'
+range: 'Jul 2018'
+url: 'http://educall.ma/wp/'
 ---
 
-- Collaborated with a small team of student designers to spearhead a new brand and design system for Scout’s inaugural student-led design conference at Northeastern
-- Worked closely with designers and management team to develop, document, and manage the conference’s marketing website using Jekyll, Sass, and JavaScript
+- I discovered the world of business in an early age through this high school internship . I've learned how to coordinate with my team . We organized three educational events for childern . Also , I've set and executed a communication plan for july month.

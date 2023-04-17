@@ -1,13 +1,12 @@
 ---
 date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+title: 'CEO & Co-founder'
+company: 'Funtawn'
+location: 'Kenitra, MA'
+range: 'Jun 2017 - Jun 2020'
+url: 'https://lematin.ma/express/2019/funtawn-jeunes-participent-education/309266.html'
 ---
 
-- Developed and shipped highly interactive web applications for Apple Music using Ember.js
-- Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs
-- Architected and implemented the front-end of Apple Music's embeddable web player widget, which lets users log in and listen to full songs in the browser
-- Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps
+- Funtawn is a start-up founded by young students when they were 15 years old, it produces "Ami Rahal" comics, these comics explain the classic lessons in a fun way using the method of storytelling, caricatures, and mind mapping to facilitate comprehension for the students.
+- Awards: Best young start-up in Morocco in Tanara Initiative competition & Selected in the Top 60 young start-ups in Africa by Anzisha Prize program 2019.
+- Skills: Entrepreneurship · Management · Creative Problem Solving · Teamwork · LeadershipSkills

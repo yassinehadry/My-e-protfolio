@@ -1,15 +1,16 @@
 ---
 date: '2'
-title: 'Spotify Profile'
-cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+title: 'ADEI Votechain'
+cover: './thumb2.png'
+github: 'https://github.com/hadryyassine/Blockchain_voting_system_ADEI'
+#external: 'https://spotify-profile.herokuapp.com/'
 tech:
+  - Spring boot
   - React
-  - Styled Components
-  - Express
-  - Spotify API
-  - Heroku
+  - Solidity
+  - Jenkins
+  - Docker
+  - JUnit
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+The project involved developing a web application for a voting system that utilizes blockchain technology for enhanced security and transparency for our Students Association election.

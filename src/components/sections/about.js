@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Java', 'SpringBoot', 'React', 'Docker', 'AWS', 'Jenkins', 'Git', 'Solidity'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +135,18 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
-            </p>
-
-            <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              I am Yassine Hadry, a driven Software Engineering student at ENSIAS and the Chairman
+              of {''}{' '}
+              <a href="https://www.linkedin.com/company/ieee-ensias-student-branch/">
+                IEEE ENSIAS SB
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              . My passion for technology encompasses software development, cloud computing, and
+              DevOps. With several programming competition wins, I have refined my programming
+              abilities and learned the value of perseverance and collaboration. I enjoy developing
+              scalable and efficient applications using Java and Spring Boot. I am actively seeking
+              an internship to further develop my skills and contribute to cutting-edge projects.
+              Let's connect and collaborate to succeed in this rapidly evolving technological
+              landscape.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

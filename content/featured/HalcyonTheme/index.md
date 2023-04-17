@@ -1,15 +1,15 @@
 ---
 date: '1'
-title: 'Halcyon Theme'
-cover: './halcyon.png'
+title: 'DecisiveMind AI'
+cover: './halcyon1.png'
 github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+#external: 'https://halcyon-theme.netlify.com/'
 tech:
-  - VS Code
-  - Sublime Text
-  - Atom
-  - iTerm2
-  - Hyper
+  - Spring boot
+  - React
+  - OpenAI API
+  - MySQL
+  - Docker
 ---
 
-A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=brittanychiang.halcyon-vscode), [Package Control](https://packagecontrol.io/packages/Halcyon%20Theme), [Atom Package Manager](https://atom.io/themes/halcyon-syntax), and [npm](https://www.npmjs.com/package/hyper-halcyon-theme).
+ChatGpt's prompt generator can help professionals make informed decisions in a variety of areas. With its ability to generate relevant prompts and suggestions, it can help resolve conflicts and make critical choices.
