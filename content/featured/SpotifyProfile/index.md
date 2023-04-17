@@ -3,7 +3,7 @@ date: '2'
 title: 'ADEI Votechain'
 cover: './thumb2.png'
 github: 'https://github.com/hadryyassine/Blockchain_voting_system_ADEI'
-#external: 'https://spotify-profile.herokuapp.com/'
+external: 'https://github.com/hadryyassine/Blockchain_voting_system_ADEI'
 tech:
   - Spring boot
   - React

@@ -3,7 +3,7 @@ date: '1'
 title: 'DecisiveMind AI'
 cover: './halcyon1.png'
 github: 'https://github.com/bchiang7/halcyon-site'
-#external: 'https://halcyon-theme.netlify.com/'
+external: 'https://github.com/hadryyassine/Blockchain_voting_system_ADEI'
 tech:
   - Spring boot
   - React
