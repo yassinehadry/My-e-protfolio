@@ -5,7 +5,7 @@ module.exports = {
     title: 'Yassine Hadry',
     description:
       'I\'m Yassine Hadry, a driven Software Engineering student at ENSIAS and the Chairman of IEEE ENSIAS Student Branch.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://hadryyassine.vercel.app/', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@YassineHadry1',
   },
