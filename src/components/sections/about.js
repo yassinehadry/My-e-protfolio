@@ -125,21 +125,23 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const devskills = [
-    'Java',
-    'Python',
-    'JavaScript',
-    'Go',
+  const devskills = ['Java', 'Python', 'JavaScript', 'Go', 'Spring Boot', 'React', 'Node.js'];
+
+  const devopsskills = [
     'Shell Script',
-    'Spring Boot',
-    'React',
-    'Node.js',
     'Docker',
     'Kubernetes',
     'Ansible',
     'Terraform',
     'Jenkins',
     'Gitlab',
+    'AWS',
+    'GCP',
+    'Azure',
+    'Kafka',
+    'Spark',
+    'Airflow',
+    'Hadoop',
     'MySQL',
     'PostgresSQL',
     'Git',
@@ -159,12 +161,11 @@ const About = () => {
                 IEEE ENSIAS SB
               </a>{' '}
               . MMy enthusiasm for the digital realm spans areas such as Web development, Data
-              engineering. and Cloud & DevOps. With several programming competition wins, I have
-              refined my programming abilities and learned the value of perseverance and
-              collaboration. I enjoy developing scalable and efficient applications. I am actively
-              seeking an internship to further develop my skills and contribute to cutting-edge
-              projects. Let's connect and collaborate to succeed in this rapidly evolving
-              technological landscape.
+              engineering. and DevOps. With several programming competition wins, I have refined my
+              programming abilities and learned the value of perseverance and collaboration. I enjoy
+              developing scalable and efficient applications. I am actively seeking an internship to
+              further develop my skills and contribute to cutting-edge projects. Let's connect and
+              collaborate to succeed in this rapidly evolving technological landscape.
             </p>
 
             <p>For programming & Web Development, I’ve been working with recently:</p>
@@ -172,6 +173,14 @@ const About = () => {
 
           <ul className="skills-list">
             {devskills && devskills.map((skill, i) => <li key={i}>{skill}</li>)}
+          </ul>
+
+          <div>
+            <p>For Data engineering & DevOps, I’ve been working with recently:</p>
+          </div>
+
+          <ul className="skills-list">
+            {devopsskills && devopsskills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
         </StyledText>
 
