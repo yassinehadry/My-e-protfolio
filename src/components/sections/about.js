@@ -125,10 +125,10 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const devskills = ['Java', 'Python', 'JavaScript', 'Go', 'Spring Boot', 'React', 'Node.js'];
+  const devskills = ['Java', 'Python', 'JavaScript', 'Go', 'Shell Script'];
+  const webskills = ['Spring Boot', 'React', 'Node.js'];
 
   const devopsskills = [
-    'Shell Script',
     'Docker',
     'Kubernetes',
     'Ansible',
@@ -137,14 +137,17 @@ const About = () => {
     'Gitlab',
     'AWS',
     'GCP',
-    'Azure',
-    'Kafka',
-    'Spark',
-    'Airflow',
-    'Hadoop',
+    'Git',
+  ];
+
+  const dataengsskills = [
     'MySQL',
     'PostgresSQL',
-    'Git',
+    'MongoDB',
+    'Apache Kafka',
+    'Apache Spark',
+    'Apache Airflow',
+    'Apache Hadoop',
   ];
 
   return (
@@ -160,7 +163,7 @@ const About = () => {
               <a href="https://www.linkedin.com/company/ieee-ensias-student-branch/">
                 IEEE ENSIAS SB
               </a>{' '}
-              . MMy enthusiasm for the digital realm spans areas such as Web development, Data
+              . My enthusiasm for the digital realm spans areas such as Web development, Data
               engineering. and DevOps. With several programming competition wins, I have refined my
               programming abilities and learned the value of perseverance and collaboration. I enjoy
               developing scalable and efficient applications. I am actively seeking an internship to
@@ -168,19 +171,39 @@ const About = () => {
               collaborate to succeed in this rapidly evolving technological landscape.
             </p>
 
-            <p>For programming & Web Development, I’ve been working with recently:</p>
+            <p>For programming languages, I’ve already worked with :</p>
           </div>
 
           <ul className="skills-list">
             {devskills && devskills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
+          <br></br>
 
           <div>
-            <p>For Data engineering & DevOps, I’ve been working with recently:</p>
+            <p>For Web Development :</p>
+          </div>
+
+          <ul className="skills-list">
+            {webskills && webskills.map((skill, i) => <li key={i}>{skill}</li>)}
+          </ul>
+          <br></br>
+
+          <div>
+            <p>For Cloud & DevOps :</p>
           </div>
 
           <ul className="skills-list">
             {devopsskills && devopsskills.map((skill, i) => <li key={i}>{skill}</li>)}
+          </ul>
+
+          <br></br>
+
+          <div>
+            <p>For Data engineering :</p>
+          </div>
+
+          <ul className="skills-list">
+            {dataengsskills && dataengsskills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
         </StyledText>
 

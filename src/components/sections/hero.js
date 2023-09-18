@@ -67,7 +67,7 @@ const Hero = () => {
       <p>
         I'm Yassine Hadry, a dedicated Software Engineering student at ENSIAS and the Chairman of
         the IEEE ENSIAS Student Branch. I'm passionate about Software Development, Data engineering,
-        and Cloud & DevOps.
+        and DevOps. I'm currently seeking and end-of-year internship, starting from February 2024.
       </p>
     </>
   );
