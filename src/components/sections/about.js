@@ -125,7 +125,25 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Java', 'SpringBoot', 'React', 'Docker', 'AWS', 'Jenkins', 'Git', 'Solidity'];
+  const devskills = [
+    'Java',
+    'Python',
+    'JavaScript',
+    'Go',
+    'Shell Script',
+    'Spring Boot',
+    'React',
+    'Node.js',
+    'Docker',
+    'Kubernetes',
+    'Ansible',
+    'Terraform',
+    'Jenkins',
+    'Gitlab',
+    'MySQL',
+    'PostgresSQL',
+    'Git',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -140,19 +158,20 @@ const About = () => {
               <a href="https://www.linkedin.com/company/ieee-ensias-student-branch/">
                 IEEE ENSIAS SB
               </a>{' '}
-              . MMy enthusiasm for the digital realm spans areas such as Web development, cloud
-              computing, and DevOps. With several programming competition wins, I have refined my
-              programming abilities and learned the value of perseverance and collaboration. I enjoy
-              developing scalable and efficient applications. I am actively seeking an internship to
-              further develop my skills and contribute to cutting-edge projects. Let's connect and
-              collaborate to succeed in this rapidly evolving technological landscape.
+              . MMy enthusiasm for the digital realm spans areas such as Web development, Data
+              engineering. and Cloud & DevOps. With several programming competition wins, I have
+              refined my programming abilities and learned the value of perseverance and
+              collaboration. I enjoy developing scalable and efficient applications. I am actively
+              seeking an internship to further develop my skills and contribute to cutting-edge
+              projects. Let's connect and collaborate to succeed in this rapidly evolving
+              technological landscape.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>For programming & Web Development, I’ve been working with recently:</p>
           </div>
 
           <ul className="skills-list">
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+            {devskills && devskills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
         </StyledText>
 
