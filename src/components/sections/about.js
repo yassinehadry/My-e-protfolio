@@ -135,18 +135,17 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I am Yassine Hadry, a driven Software Engineering student at ENSIAS and the Chairman
-              of {''}{' '}
+              I am Yassine Hadry, a final-year Software Engineering student at ENSIAS and the
+              Chairman of {''}{' '}
               <a href="https://www.linkedin.com/company/ieee-ensias-student-branch/">
                 IEEE ENSIAS SB
               </a>{' '}
-              . My passion for technology encompasses software development, cloud computing, and
-              DevOps. With several programming competition wins, I have refined my programming
-              abilities and learned the value of perseverance and collaboration. I enjoy developing
-              scalable and efficient applications using Java and Spring Boot. I am actively seeking
-              an internship to further develop my skills and contribute to cutting-edge projects.
-              Let's connect and collaborate to succeed in this rapidly evolving technological
-              landscape.
+              . MMy enthusiasm for the digital realm spans areas such as Web development, cloud
+              computing, and DevOps. With several programming competition wins, I have refined my
+              programming abilities and learned the value of perseverance and collaboration. I enjoy
+              developing scalable and efficient applications. I am actively seeking an internship to
+              further develop my skills and contribute to cutting-edge projects. Let's connect and
+              collaborate to succeed in this rapidly evolving technological landscape.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

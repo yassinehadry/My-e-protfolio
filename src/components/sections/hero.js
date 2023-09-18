@@ -65,9 +65,9 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm Yassine Hadry, a driven Software Engineering student at ENSIAS and the Chairman of IEEE
-        ENSIAS Student Branch. My passion for technology encompasses Software Development with
-        Spring and React , Cloud Computing, Blockchain and DevOps .
+        I'm Yassine Hadry, a dedicated Software Engineering student at ENSIAS and the Chairman of
+        the IEEE ENSIAS Student Branch. I'm passionate about Software Development, Data engineering,
+        and Cloud & DevOps.
       </p>
     </>
   );
