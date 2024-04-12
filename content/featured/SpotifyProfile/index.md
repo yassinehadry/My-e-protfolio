@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: 'ADEI Votechain'
 cover: './thumb2.png'
 github: 'https://github.com/hadryyassine/Blockchain_voting_system_ADEI'
@@ -11,6 +11,7 @@ tech:
   - Solidity
   - Jenkins
   - Docker
+  - Docker Compose
   - JUnit
 ---
 

@@ -15,3 +15,4 @@ OSC is an intensive 3-month internship where we were asked to design innovative 
 - Reduced deployment time gatsby 35% by implementing a CI/CD pipeline using Jenkins to automate the build, test, and deployment process.
 - Optimized application performance and scalability by using Docker to deploy and manage microservices.
 - Winning the Google prize for the best intern project
+- Skills: Java, Spring Boot, React, Jenkins, Docker, Docker Compose, Minikube.

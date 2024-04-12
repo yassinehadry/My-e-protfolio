@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '3'
 title: 'DecisiveMind AI'
 cover: './halcyon1.png'
 github: 'https://github.com/hadryyassine/DecisiveMind-AI'

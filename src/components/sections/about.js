@@ -125,93 +125,64 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const devskills = ['Java', 'Python', 'JavaScript', 'Go', 'Shell Script'];
-  const webskills = ['Spring Boot', 'React', 'Node.js'];
-
-  const devopsskills = [
-    'Docker',
-    'Kubernetes',
-    'Ansible',
-    'Terraform',
-    'Jenkins',
-    'Gitlab',
-    'AWS',
-    'GCP',
-    'Git',
-  ];
-
-  const dataengsskills = [
-    'MySQL',
-    'PostgresSQL',
-    'MongoDB',
-    'Apache Kafka',
-    'Apache Spark',
-    'Apache Airflow',
-    'Apache Hadoop',
+  const devskills = [
+    'Site reliability engineering',
+    'Software Development',
+    'Cloud Computing',
+    'Automation',
   ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
-      <h2 className="numbered-heading">About Me</h2>
+      <h2 className="numbered-heading">My Story</h2>
 
       <div className="inner">
         <StyledText>
           <div>
             <p>
-              I am Yassine Hadry, a final-year Software Engineering student at ENSIAS and the
-              Chairman of {''}{' '}
-              <a href="https://www.linkedin.com/company/ieee-ensias-student-branch/">
-                IEEE ENSIAS SB
-              </a>{' '}
-              . My enthusiasm for the digital realm spans areas such as Web development, Data
-              engineering. and DevOps. With several programming competition wins, I have refined my
-              programming abilities and learned the value of perseverance and collaboration. I enjoy
-              developing scalable and efficient applications. I am actively seeking an internship to
-              further develop my skills and contribute to cutting-edge projects. Let's connect and
-              collaborate to succeed in this rapidly evolving technological landscape.
+              Coding has been a lifelong passion of mine, ever since I wrote my first 'Hello,
+              World!' program at just 14 years old. I still remember the sense of wonder and
+              accomplishment I felt when I saw those simple words appear on the screen - it was like
+              unlocking the door to a whole new world of possibilities.
             </p>
 
-            <p>For programming languages, I’ve already worked with :</p>
+            <p>
+              My journey extends beyond just code, though. When I was still in high school, I
+              co-founded an educational startup with two of my classmates. Our mission was to
+              transform boring lessons into fun, engaging learning experiences. Throughout my
+              university years, I built a freelance career in parallel with my studies. I helped
+              small businesses establish strong online identities and navigate their digital
+              transformation journeys. I was also deeply committed to giving back to my community -
+              I served as the chairman of the IEEE ENSIAS Branch, and volunteered for organizations
+              like Anoual Association, Injaz Al Maghrib, and Enactus.
+            </p>
+
+            <p>
+              My professional experiences have been equally rewarding. I was a Software engineering
+              intern at Orange and I had the opportunity to work with the SRE team for GraalVM at
+              Oracle as an intern.
+            </p>
+
+            <p>
+              I'm confident that I can bring this same level of enthusiasm, creativity, and
+              technical expertise to an apprenticeship or early career role, where I can continue to
+              grow and contribute to the next wave of technological advancements.
+            </p>
+
+            <p>I have a genuine interest in these fields :</p>
           </div>
 
           <ul className="skills-list">
             {devskills && devskills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
           <br></br>
-
-          <div>
-            <p>For Web Development :</p>
-          </div>
-
-          <ul className="skills-list">
-            {webskills && webskills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
-          <br></br>
-
-          <div>
-            <p>For Cloud & DevOps :</p>
-          </div>
-
-          <ul className="skills-list">
-            {devopsskills && devopsskills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
-
-          <br></br>
-
-          <div>
-            <p>For Data engineering :</p>
-          </div>
-
-          <ul className="skills-list">
-            {dataengsskills && dataengsskills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
         </StyledText>
 
         <StyledPic>
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me2.jpeg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}

@@ -65,20 +65,23 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm Yassine Hadry, a dedicated Software Engineering student at ENSIAS and the Chairman of
-        the IEEE ENSIAS Student Branch. I'm passionate about Software Development, Data engineering,
-        and DevOps. I'm currently seeking and end-of-year internship, starting from February 2024.
+        I'm Yassine Hadry, a Software and Site Reliability Engineer (SRE) with a strong enthusiasm
+        for open-source projects. My core mission is to transform ideas into scalable and robust
+        solutions. I am on the lookout for an apprenticeship or early career role that will
+        challenge me to grow and contribute to the next wave of technological advancements. I have a
+        genuine interest for Site reliability engineering, Cloud Computing, System Design and
+        Automation.
       </p>
     </>
   );
   const five = (
     <a
       className="email-link"
-      href="https://github.com/hadryyassine"
+      href="https://calendly.com/hadryyassine/60min/"
       target="_blank"
       rel="noreferrer"
     >
-      Check out my github !
+      Book a call with me !
     </a>
   );
 
